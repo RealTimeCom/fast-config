@@ -1,27 +1,30 @@
 {
-  "name": "fast-config",
-  "version": "0.0.1",
-  "description": "Fast configuration utility for Fast Sream HTTP Server",
-  "main": "index.js",
-  "scripts": {
-    "test": "node test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RealTimeCom/fast-config.git"
-  },
-  "keywords": [
-    "stream",
-    "fast",
-    "http",
-    "media",
-    "config",
-    "cache"
-  ],
-  "author": "Tanase Laurentiu Iulian <expertphp@gmail.com> (https://github.com/RealTimeCom)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RealTimeCom/fast-config/issues"
-  },
-  "homepage": "https://github.com/RealTimeCom/fast-config"
+    "name": "fast-config",
+    "version": "1.0.0",
+    "description": "Fast configuration utility for Fast Stream HTTP Server",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test.js"
+    },
+    "dependencies": {
+        "mimehttp": "~1.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/RealTimeCom/fast-config.git"
+    },
+    "keywords": [
+        "stream",
+        "fast",
+        "http",
+        "media",
+        "config",
+        "cache"
+    ],
+    "author": "Tanase Laurentiu Iulian <expertphp@gmail.com> (https://github.com/RealTimeCom)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/RealTimeCom/fast-config/issues"
+    },
+    "homepage": "https://github.com/RealTimeCom/fast-config"
 }
